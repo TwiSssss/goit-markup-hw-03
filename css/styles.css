@@ -1,0 +1,151 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-second {
+  color: #2e2f42;
+}
+.header-feature {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-feature-list:focus {
+  color: #404bbf;
+}
+.header-feature-list {
+  color: #2e2f42;
+}
+.header-feature-list:hover {
+  color: #404bbf;
+}
+.header-feature-list:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address-box {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-box-item {
+  color: #434455;
+}
+.address-box-item:hover {
+  color: #404bbf;
+}
+.address-box-item:active {
+  color: #404bbf;
+}
+.address-box-item:focus {
+  color: #404bbf;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+p {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-one {
+  background: #2e2f42;
+}
+.sec-one-btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background: #4d5ae5;
+}
+.sec-one-btn:hover {
+  background: #404bbf;
+}
+.sec-one-btn:focus {
+  background: #404bbf;
+}
+.sec-one-btn-text {
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.section-three {
+  background: #f4f4fd;
+}
+.section-three-title {
+  text-transform: capitalize;
+}
+.sec-three-feature {
+  text-align: center;
+}
+.sec-three-feature-list {
+  background-color: #ffffff;
+}
+.sec-three-feature-paragraph {
+  font-size: 16px;
+}
+.section-four-title {
+  text-transform: capitalize;
+}
+.section-footer {
+  background: #2e2f42;
+}
+.footer-paragraph {
+  color: #f4f4fd;
+}
+
+.logo-second-footer {
+  color: #f4f4fd;
+}
+address {
+  font-style: normal;
+}
