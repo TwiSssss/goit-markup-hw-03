@@ -7,13 +7,31 @@ body {
   line-height: 24px;
   letter-spacing: 2%;
 }
-
+.container {
+  max-width: 1158px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+img {
+  display: block;
+}
 a {
   text-decoration: none;
 }
 ul,
 ol {
   list-style: none;
+}
+.header-main {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-one {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -27,7 +45,13 @@ ol {
 .logo-second {
   color: #2e2f42;
 }
+nav {
+  display: flex;
+  align-items: center;
+}
 .header-feature {
+  display: flex;
+  padding-left: 76px;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -40,6 +64,9 @@ ol {
 .header-feature-list {
   color: #2e2f42;
 }
+.header-feature li {
+  margin-right: 40px;
+}
 .header-feature-list:hover {
   color: #404bbf;
 }
@@ -47,13 +74,26 @@ ol {
   color: #404bbf;
   text-decoration: underline;
 }
-
+address {
+  font-style: normal;
+}
+.address-item {
+  display: flex;
+  justify-content: flex-end;
+}
 .address-box {
+  display: flex;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.address-box li {
+  margin-right: 40px;
+}
+li:last-child {
+  margin-right: 0;
 }
 .address-box-item {
   color: #434455;
@@ -67,14 +107,7 @@ ol {
 .address-box-item:focus {
   color: #404bbf;
 }
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 107%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
+
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -96,16 +129,34 @@ p {
   color: #434455;
 }
 .section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 600px;
   background: #2e2f42;
 }
+
+.section-one-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 188px;
+  padding-bottom: 48px;
+}
 .sec-one-btn {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
   cursor: pointer;
   background: #4d5ae5;
 }
+
 .sec-one-btn:hover {
   background: #404bbf;
 }
@@ -114,38 +165,119 @@ p {
 }
 .sec-one-btn-text {
   line-height: 150%;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: #fff;
+  font-weight: 500;
+  font-size: 16px;
 }
-
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0px;
+}
+.section-hidden-title {
+  display: none;
+}
+.sec-two-feature {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.sec-two-feature li {
+  padding-right: 24px;
+}
 .section-three {
+  height: 732px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #f4f4fd;
 }
+
 .section-three-title {
+  margin: 0;
+  padding-top: 120px;
   text-transform: capitalize;
 }
+
+.sec-three-feature li {
+  margin-right: 24px;
+}
 .sec-three-feature {
+  margin: 0;
+  padding-top: 72px;
+  display: flex;
   text-align: center;
 }
 .sec-three-feature-list {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
 }
 .sec-three-feature-paragraph {
   font-size: 16px;
 }
+
 .section-four-title {
+  margin: 0;
+  padding-top: 120px;
   text-transform: capitalize;
 }
+.sec-four-feature {
+  margin-top: 72px;
+  margin-bottom: 120px;
+
+  padding: 0;
+}
+.row {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+.row-one {
+  margin-bottom: 48px;
+}
+.sec-four-feature-all {
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 0;
+}
+.sec-four-feature-title {
+  margin: 0;
+}
+.sec-four-feature-paragraph {
+  margin-top: 8px;
+}
+.sec-four-feature-list {
+  margin-right: 24px;
+
+  border: 1px solid #e7e9fc;
+  width: 360px;
+  height: 420px;
+  background: #fff;
+}
+
 .section-footer {
+  height: 312px;
   background: #2e2f42;
 }
 .footer-paragraph {
+  width: 264px;
+  padding-top: 16px;
+  margin: 0;
   color: #f4f4fd;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.section-footer .container {
+  padding-top: 101.5px;
 }
 
 .logo-second-footer {
   color: #f4f4fd;
-}
-address {
-  font-style: normal;
 }
