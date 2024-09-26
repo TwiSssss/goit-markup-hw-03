@@ -243,20 +243,24 @@ p {
   margin-bottom: 48px;
 }
 .sec-four-feature-all {
+  border: 1px solid #e7e9fc;
+
+}
+.sec-four-feature-title {
+
   margin-top: 32px;
   margin-left: 16px;
   margin-bottom: 0;
 }
-.sec-four-feature-title {
-  margin: 0;
-}
 .sec-four-feature-paragraph {
   margin-top: 8px;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 .sec-four-feature-list {
   margin-right: 24px;
 
-  border: 1px solid #e7e9fc;
+
   width: 360px;
   height: 420px;
   background: #fff;
