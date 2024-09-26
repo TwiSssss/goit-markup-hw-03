@@ -9,10 +9,8 @@ body {
 }
 .container {
   max-width: 1158px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 156px;
-  margin-right: 156px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 img {
   display: block;
@@ -27,13 +25,20 @@ ol {
 .header-main {
   border-bottom: 1px solid #e7e9fc;
 }
+nav {
+  display: flex;
+  align-items: center;
+}
 .header-one {
   height: 72px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
+  display: flex;
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -45,14 +50,10 @@ ol {
 .logo-second {
   color: #2e2f42;
 }
-nav {
-  display: flex;
-  align-items: center;
-}
 .header-feature {
+  padding: 24px 0;
   display: flex;
-  padding-left: 76px;
-  font-weight: 500;
+   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -228,20 +229,18 @@ p {
 }
 .sec-four-feature {
   margin-top: 72px;
-  margin-bottom: 120px;
-
-  padding: 0;
-}
-.row {
-  margin: 0;
+  margin-bottom: 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   padding: 0;
+
 }
+
 .row-one {
-  margin-bottom: 48px;
+  margin-bottom: 72px;
+
 }
+
 .sec-four-feature-all {
   border: 1px solid #e7e9fc;
 
@@ -259,7 +258,7 @@ p {
 }
 .sec-four-feature-list {
   margin-right: 24px;
-
+  margin-bottom: 48px;
 
   width: 360px;
   height: 420px;
