@@ -185,13 +185,11 @@ p {
 }
 .visually-hidden {
   position: absolute;
+  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  visibility: visible;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+ 
 }
 .section-two-title {
   margin-bottom: 8px;
@@ -264,17 +262,14 @@ p {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .sec-four-feature-title {
   margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
-  margin-bottom: 0;
-}
+  }
 .sec-four-feature-paragraph {
-   margin-left: 16px;
-  margin-bottom: 32px;
+  margin: 0;
+
 }
 .sec-four-feature-list {
   width: 360px;
