@@ -131,6 +131,7 @@ p {
   color: #434455;
 }
 .section-one {
+  padding: 188px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,6 +141,7 @@ p {
 }
 
 .section-one-title {
+  max-width: 496px; 
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -147,13 +149,16 @@ p {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 188px;
   padding-bottom: 48px;
 }
 .sec-one-btn {
+  display: block; 
+  border: none; 
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   cursor: pointer;
   background: #4d5ae5;
@@ -167,7 +172,7 @@ p {
 }
 .sec-one-btn-text {
   line-height: 150%;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: #fff;
   font-weight: 500;
   font-size: 16px;
@@ -178,15 +183,27 @@ p {
   align-items: center;
   padding: 120px 0px;
 }
-.section-hidden-title {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.section-two-title{
+  margin-bottom: 8px;
 }
 .sec-two-feature {
   display: flex;
+  gap: 24px;
   margin: 0;
   padding: 0;
 }
 .sec-two-feature li {
+  width: calc((100% - 72px) / 4);
   padding-right: 24px;
 }
 .section-three {
