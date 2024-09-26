@@ -36,7 +36,7 @@ nav {
   align-items: center;
 }
 
-.logo {
+.logo-link {
   display: flex;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
@@ -51,7 +51,7 @@ nav {
   color: #2e2f42;
 }
 .header-feature {
-  padding: 24px 0;
+
   display: flex;
    font-weight: 500;
   font-size: 16px;
@@ -63,6 +63,7 @@ nav {
   color: #404bbf;
 }
 .header-feature-list {
+  padding: 24px 0;
   color: #2e2f42;
 }
 .header-feature li {
