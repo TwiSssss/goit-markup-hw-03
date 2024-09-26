@@ -53,7 +53,7 @@ nav {
 .header-list {
   padding: 24px 0;
   display: flex;
-   font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -141,7 +141,7 @@ p {
 }
 
 .section-one-title {
-  max-width: 496px; 
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -152,8 +152,8 @@ p {
   padding-bottom: 48px;
 }
 .sec-one-btn {
-  display: block; 
-  border: none; 
+  display: block;
+  border: none;
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
@@ -189,11 +189,11 @@ p {
   height: 1px;
   padding: 0;
   margin: -1px;
-  overflow: hidden;
+  visibility: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.section-two-title{
+.section-two-title {
   margin-bottom: 8px;
 }
 .sec-two-feature {
@@ -239,32 +239,34 @@ p {
 .sec-three-feature-paragraph {
   font-size: 16px;
 }
-
+.section-four {
+  padding: 120px 0 120px 0;
+}
 .section-four-title {
   margin: 0;
-  padding-top: 120px;
+  margin-bottom: 72px;
   text-transform: capitalize;
 }
 .sec-four-feature {
-  margin-top: 72px;
+  column-gap: 24px;
+  row-gap: 48px;
   margin-bottom: 0px;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-
 }
 
 .row-one {
   margin-bottom: 72px;
-
 }
 
 .sec-four-feature-all {
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
-
+  border-top: none;
+  margin-bottom: 8px;
 }
 .sec-four-feature-title {
-
   margin-top: 32px;
   margin-left: 16px;
   margin-bottom: 0;
@@ -275,30 +277,35 @@ p {
   margin-bottom: 32px;
 }
 .sec-four-feature-list {
-  margin-right: 24px;
-  margin-bottom: 48px;
-
   width: 360px;
   height: 420px;
   background: #fff;
 }
 
 .section-footer {
+  padding: 100px 0;
   height: 312px;
   background: #2e2f42;
 }
 .footer-paragraph {
   width: 264px;
-  padding-top: 16px;
   margin: 0;
   color: #f4f4fd;
   line-height: 150%;
   letter-spacing: 0.02em;
 }
-.section-footer .container {
-  padding-top: 101.5px;
-}
 
+.logo-text-second {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-second-footer {
   color: #f4f4fd;
 }
